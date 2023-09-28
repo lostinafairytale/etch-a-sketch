@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 400px;
+    background-color: green;
+}
+
+.box {
+    width: 25px;
+    height: 25px;
+    background-color: grey;
+}
