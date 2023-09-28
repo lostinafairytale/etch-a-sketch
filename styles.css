@@ -1,3 +1,12 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 0 0 auto;
+    margin: 0 auto;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -14,4 +23,9 @@
     width: 25px;
     height: 25px;
     background-color: grey;
+}
+
+button {
+    margin: 30px;
+    padding: 20px;
 }
